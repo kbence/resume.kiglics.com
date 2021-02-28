@@ -1,0 +1,30 @@
+.centered {
+  width: 210mm;
+  margin: 0 auto;
+}
+
+.centered:after {
+  clear: both;
+}
+
+.personal {
+  width: 30%;
+  float: left;
+  background-color: aqua;
+  padding: 15px;
+}
+
+.personal i.eva {
+  font-size: 1.5em;
+}
+
+.career {
+  width: 70%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.career li {
+  list-style-type: "\1F83A";
+}

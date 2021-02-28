@@ -1,3 +1,5 @@
+import 'eva-icons/style/eva-icons.css'
+
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {

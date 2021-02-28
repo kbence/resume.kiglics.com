@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
+    "eva-icons": "^1.1.3",
     "next": "10.0.7",
+    "next-google-fonts": "^2.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }
