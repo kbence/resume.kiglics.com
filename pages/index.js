@@ -2,9 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 
 import styles from '../styles/Home.module.css';
-import Centered from './layout/Centered';
-import Personal from './layout/Personal';
-import Career from './layout/Career';
+import Centered from '../components/layout/Centered';
+import Personal from '../components/layout/Personal';
+import Career from '../components/layout/Career';
 
 export default class Resume extends React.Component {
   render() {
@@ -25,6 +25,21 @@ export default class Resume extends React.Component {
           <li>Problémamegoldás szeretete</li>
           <li>Magabiztos tudással rendelkezem</li>
           <li>Bonyolult összefüggésben való gondolkodás</li>
+        </ul>
+
+        <h3>Eredményeim</h3>
+        <ul>
+          <li></li>
+        </ul>
+
+        <h3>Képességeim</h3>
+        <ul>
+          <li></li>
+        </ul>
+
+        <h3>Alapértékeim</h3>
+        <ul>
+          <li></li>
         </ul>
       </Career>
     </Centered>;

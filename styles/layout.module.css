@@ -16,6 +16,7 @@
 
 .personal i.eva {
   font-size: 1.5em;
+  vertical-align: middle;
 }
 
 .career {
@@ -26,5 +27,5 @@
 }
 
 .career li {
-  list-style-type: "\1F83A";
+  list-style-type: "\27A5";
 }
