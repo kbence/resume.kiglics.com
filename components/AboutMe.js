@@ -16,14 +16,14 @@ export default class AboutMe extends React.Component {
         webfejlesztésből érkezem, emellett kiberbiztonsági témákkal is
         foglalkozom, így a fejlesztés bármely szakaszában tudok segíteni,
         ajánlásokat tenni és az esetleges hiányosságokat felfedezni.
-        Platformok szintjén legtöbb tapasztalatom AWS terén van, de
+        Platformok szintjén a legtöbb tapasztalatom az AWS terén van, de
         hobbi-projektekben már használtam Google Cloud Platform
         szolgáltatásokat is.
       </p>
       <p>
-        Mindenem a tanulás és szeretem azt gondolni, hogy a több
-        területet átölelő érdeklődésem segít abban hogy a lehető legjobb
-        megoldás felé tereljem magamat és azokat, akikkel együtt dolgozom.
+        Mindenem a tanulás és hiszem, hogy a több területet átölelő
+        érdeklődésem segít abban hogy a lehető legjobb megoldás felé
+        tereljem magamat és azokat, akikkel együtt dolgozom.
       </p>
     </div>
   }
