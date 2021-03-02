@@ -1,6 +1,28 @@
 .centered {
-  width: 210mm;
-  margin: 0 auto;
+  width: 760px;
+  height: 900px;
+  margin: 15px auto;
+}
+
+@media print {
+  .centered {
+    width: 180mm;
+    height: 297mm;
+    margin: 0 0;
+  }
+}
+
+@page {
+  margin: 0;
+}
+
+@media screen {
+  .centered {
+    border-radius: 1mm;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: rgba(0, 0, 0, .3) 5px 5px 8px;
+  }
 }
 
 .centered:after {
@@ -8,24 +30,17 @@
 }
 
 .personal {
-  width: 30%;
+  width: 25%;
+  height: 267mm;
   float: left;
-  background-color: aqua;
+  background-color: rgb(40, 49, 49);
   padding: 15px;
-}
-
-.personal i.eva {
-  font-size: 1.5em;
-  vertical-align: middle;
 }
 
 .career {
-  width: 70%;
+  width: 75%;
+  height: 267mm;
   float: left;
   background-color: rgb(255, 255, 255);
   padding: 15px;
-}
-
-.career li {
-  list-style-type: "\27A5";
 }
