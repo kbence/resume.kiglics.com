@@ -1,6 +1,6 @@
 .centered {
   width: 760px;
-  height: 900px;
+  height: 1072px;
   margin: 15px auto;
 }
 
@@ -31,13 +31,13 @@
 
 .personal {
   width: 25%;
-  height: 267mm;
+  height: 297mm;
   float: left;
 }
 
 .career {
   width: 75%;
-  height: 267mm;
+  height: 297mm;
   float: left;
   background-color: rgb(255, 255, 255);
   padding: 15px;
