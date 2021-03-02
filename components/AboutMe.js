@@ -21,7 +21,7 @@ export default class AboutMe extends React.Component {
         szolgáltatásokat is.
       </p>
       <p>
-        Mindenem a tanulás és hiszem, hogy a több területet átölelő
+        Mindenem a tanulás és tudom, hogy a több területet átölelő
         érdeklődésem segít abban hogy a lehető legjobb megoldás felé
         tereljem magamat és azokat, akikkel együtt dolgozom.
       </p>
