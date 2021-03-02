@@ -1,0 +1,19 @@
+name: build-and-upload
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-upload:
+    name: build-and-upload
+    steps:
+      - uses: actions/checkout@2
+      - uses: actions/setup-node@1
+      - uses: chrislennon/action-aws-cli@v1.1
+      - run: npm install
+      - run: ./upload.sh
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
