@@ -10,8 +10,8 @@ jobs:
     name: build-and-upload
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@2
-      - uses: actions/setup-node@1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
       - uses: chrislennon/action-aws-cli@v1.1
       - run: npm install
       - run: ./upload.sh
