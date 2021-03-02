@@ -24,6 +24,10 @@ blockquote {
   font-style: italic;
 }
 
+p {
+  text-align: justify;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -46,4 +50,9 @@ li {
 
 ul li {
   margin: 5px 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }

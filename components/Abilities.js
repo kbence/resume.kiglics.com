@@ -4,8 +4,8 @@ import style from '../styles/Abilities.module.css';
 
 const abilities = `
   Linux/Unix, Kubernetes, DevOps,
-  AWS, Terraform, Ansible,
-  Go, Python, C/C++, Java, Bash
+  AWS, Terraform, Ansible, Chef,
+  Go, Python, Bash, C/C++, Java
 `.trim().split(',').map(a => a.trim());
 
 export default class Abilities extends React.Component {

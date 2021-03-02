@@ -1,3 +1,9 @@
 .career h3 {
   border-bottom: 1px solid gray;
 }
+
+@media print {
+  .career {
+    width: 72%;
+  }
+}

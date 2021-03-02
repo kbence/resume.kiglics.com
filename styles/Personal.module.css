@@ -1,4 +1,12 @@
-.career i.eva {
+.personal {
+  background-color: #ccc;
+  padding: 15px;
+}
+
+.personal i {
   font-size: 1.5em;
   vertical-align: middle;
+  margin-right: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }

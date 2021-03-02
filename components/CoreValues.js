@@ -7,15 +7,17 @@ export default class CoreValues extends React.Component {
       <ul>
         <li>
           <b>Nyitottság:</b> új ötletek, más szempontok megismerése nélkül
-          lehetetlen fejlődni
+          lehetetlen fejlődni.
         </li>
         <li>
           <b>Tolerancia:</b> hiszem, hogy hosszú távon csak úgy lehet együtt
           dolgozni, ha hajlandóak vagyunk megérteni és elfogadni mások
-          véleményét és identitását
+          véleményét és identitását.
         </li>
         <li>
-          <b>Mentorálás:</b> akár
+          <b>Kölcsönös tisztelet:</b> amikor együtt dolgozunk, fontos hogy
+          mindig értékeljük egymás munkáját, belefordított energiáját,
+          érzéseit.
         </li>
       </ul>
     </div>

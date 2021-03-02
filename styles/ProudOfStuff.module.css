@@ -1,0 +1,7 @@
+.proudof ul {
+  column-count: 2;
+}
+
+.proudof ul li {
+  margin-top: 0;
+}
