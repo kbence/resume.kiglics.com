@@ -45,7 +45,7 @@ export default class PersonalInfo extends React.Component {
       <li>Sütés/főzés</li>
     </ul>
 
-    <span class="footer print-only">Source: resume.kiglics.com</span>
+    <span className="footer print-only">Source: resume.kiglics.com</span>
   </div>
   }
 }

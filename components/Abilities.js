@@ -13,7 +13,7 @@ export default class Abilities extends React.Component {
     return <div>
       <h3>Képességeim</h3>
       <div className={style.abilities}>
-        {abilities.map(a => <span className={style.ability}>{a}</span>)}
+        {abilities.map(a => <span key={a} className={style.ability}>{a}</span>)}
       </div>
     </div>
   }
