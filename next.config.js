@@ -1,0 +1,16 @@
+module.exports = {
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.ya?ml$/,
+      type: "json",
+      use: "yaml-loader"
+    });
+
+    return config;
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'hu'],
+  },
+}

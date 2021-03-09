@@ -1,9 +1,12 @@
 import React from 'react';
+import { withTranslation } from 'next-i18next';
 
-export default class Successes extends React.Component {
+class Successes extends React.Component {
   render() {
+    const { t } = this.props;
+
     return <div>
-      <h3>Egyéni sikereim</h3>
+      <h3>{t('career.personalAccomplishments.title')}</h3>
       <h4>Instructure</h4>
       <ul>
         <li>Új szolgáltatások éles környezetig vitelét 2-3 hétről 2 órára csökkentettem</li>
@@ -18,3 +21,5 @@ export default class Successes extends React.Component {
     </div>;
   }
 }
+
+export default withTranslation('main')(Successes);
