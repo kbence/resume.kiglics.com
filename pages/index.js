@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Abilities from '../components/Abilities';
+import Skills from '../components/Skills';
 import AboutMe from '../components/AboutMe';
 import Career from '../components/layout/Career';
 import Centered from '../components/layout/Centered';
@@ -9,7 +9,7 @@ import CoreValues from '../components/CoreValues';
 import Personal from '../components/layout/Personal';
 import PersonalInfo from '../components/PersonalInfo';
 import ProudOfStuff from '../components/ProudOfStuff';
-import Successes from '../components/Successes';
+import Achievements from '../components/Achievements';
 
 export default class Resume extends React.Component {
   render() {
@@ -23,8 +23,8 @@ export default class Resume extends React.Component {
       <Career>
         <AboutMe />
         <ProudOfStuff />
-        <Successes />
-        <Abilities />
+        <Achievements />
+        <Skills />
         <CoreValues />
       </Career>
     </Centered>;
