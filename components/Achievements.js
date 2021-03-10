@@ -1,5 +1,4 @@
 import React from 'react';
-import { withTranslation } from 'next-i18next';
 
 export default class Achievements extends React.Component {
   render() {
