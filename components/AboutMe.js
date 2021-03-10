@@ -3,27 +3,31 @@ import React from 'react';
 export default class AboutMe extends React.Component {
   render() {
     return <div>
-      <h3>Magamról</h3>
+      <h3>About me</h3>
       <blockquote>
-        "Azt, aki olyan munkát végez el, amire egy számítógép is képes
-        lenne, a gépek az éjszaka közepén összegyűlnek, és közösen
-        kiröhögik"
+        "When humans do stuff that computers can do for them, computers will gather at night and laugh at the human"
       </blockquote>
       <p>
-        Széleskörű tudással és érdeklődéssel rendelkező fejlesztő vagyok.
-        A jelenlegi pozícióm <b>Site Reliability Engineer</b>, de az
-        Infra/DevOps környékén mozgok immár 8 éve. Eredetileg
-        webfejlesztésből érkezem, emellett kiberbiztonsági témákkal is
-        foglalkozom, így a fejlesztés bármely szakaszában tudok segíteni,
-        ajánlásokat tenni és az esetleges hiányosságokat felfedezni.
-        Platformok szintjén a legtöbb tapasztalatom az AWS terén van, de
-        hobbi-projektekben már használtam Google Cloud Platform
-        szolgáltatásokat is.
+        I'm a software developer with a wide range of knowledge and interests.
+        My current position is <b>Site Reliability Engineer</b>, but I'm
+        basically around DevOps for more than 8 years now. Originally I've
+        started in web development, but then started to shift my career towards
+        DevOps; I'm also interested in topics like cyber security, and because
+        of this I'm more than capable in helping and advising in any part of
+        the development lifecycle. Most of my experience is in managing
+        services running on AWS and Kubernetes, but I have used GCP as well
+        in some of my pet-projects. Building CI/CD pipelines and realizing
+        savings in infrastructural costs are also high on my list.
       </p>
       <p>
         Mindenem a tanulás és tudom, hogy a több területet átölelő
         érdeklődésem segít abban hogy a lehető legjobb megoldás felé
         tereljem magamat és azokat, akikkel együtt dolgozom.
+      </p>
+      <p>
+        Learning and keeping up with technology is important to me, and I
+        know that my wide range of interests helps me redirecting myself and
+        the people I work with towards the best possible solutions.
       </p>
     </div>
   }

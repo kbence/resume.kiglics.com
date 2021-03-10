@@ -8,12 +8,12 @@ export default class PersonalInfo extends React.Component {
     <div className={style.profileimage}></div>
     <div className={style.name}>Bence Kiglics</div>
 
-    <h3>Kapcsolat</h3>
+    <h3>Contact</h3>
     <div><i className="eva eva-phone" />+36 30 658 9308</div>
     <div><i className="eva eva-email" />bence.kiglics@gmail.com</div>
     <div><i className="eva eva-github" />kbence</div>
 
-    <h3>Karrierem</h3>
+    <h3>My Career</h3>
 
     <div className={style.careerstep}>
       <h4>Instructure</h4>
@@ -39,10 +39,11 @@ export default class PersonalInfo extends React.Component {
       <span>2008 - 2012</span>
     </div>
 
-    <h3>Hobbijaim</h3>
+    <h3>My hobbies</h3>
     <ul>
-      <li>Játékfejlesztés</li>
-      <li>Sütés/főzés</li>
+      <li>VFX</li>
+      <li>Coding</li>
+      <li>Cooking</li>
     </ul>
 
     <span className="footer print-only">Source: resume.kiglics.com</span>

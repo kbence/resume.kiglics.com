@@ -6,14 +6,14 @@ export default class ProudOfStuff extends React.Component {
   render() {
     return <div>
       <div className={style.proudof}>
-        <h3>Amire büszke vagyok</h3>
+        <h3>Things that make me proud</h3>
         <ul>
-          <li>Szeretek új dolgokat tanulni</li>
-          <li>A problemamegoldás az életem</li>
-          <li>Magabiztos tudással rendelkezem</li>
-          <li>Könnyen átlátok bonyolult rendszereket</li>
-          <li>Mindig segitőkész vagyok</li>
-          <li>Felelősségteljesen végzem a munkám</li>
+          <li>I love learning new stuff</li>
+          <li>Problem solving is my essence</li>
+          <li>I have confidence in my knowledge</li>
+          <li>I'm great at understanding complex systems</li>
+          <li>I'm always helpful</li>
+          <li>I do my job responsibly</li>
         </ul>
       </div>
     </div>

@@ -3,21 +3,22 @@ import React from 'react';
 export default class CoreValues extends React.Component {
   render() {
     return <div>
-      <h3>Alapértékeim</h3>
+      <h3>Core values</h3>
       <ul>
         <li>
-          <b>Nyitottság:</b> új ötletek, más szempontok megismerése nélkül
-          lehetetlen fejlődni.
+          <b>Openness:</b>
+          without new ideas or understanding new perspectives, it is
+          impossible to improve and evolve.
         </li>
         <li>
-          <b>Tolerancia:</b> hiszem, hogy hosszú távon csak úgy lehet együtt
-          dolgozni, ha hajlandóak vagyunk megérteni és elfogadni mások
-          véleményét és identitását.
+          <b>Tolerance:</b>
+          I believe that we can only work together on the long run, if
+          we are willing to understand and accept others opinion and identity.
         </li>
         <li>
-          <b>Kölcsönös tisztelet:</b> amikor együtt dolgozunk, fontos hogy
-          mindig értékeljük egymás munkáját, belefordított energiáját,
-          érzéseit.
+          <b>Mutual respect:</b>
+          when we work together, it's important to value each other's
+          work, and their energy and time they put into it.
         </li>
       </ul>
     </div>

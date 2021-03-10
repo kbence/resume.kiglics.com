@@ -1,8 +1,8 @@
-.abilities {
+.skills {
   margin: 5px;
 }
 
-.abilities:after {
+.skills:after {
     content: ".";
     clear: both;
     display: block;
@@ -10,7 +10,7 @@
     visibility: hidden;
 }
 
-.ability {
+.skill {
   background-color: rgb(16, 16, 88);
   color: white;
   padding: 5px 15px;
