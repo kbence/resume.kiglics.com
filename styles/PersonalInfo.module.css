@@ -39,7 +39,7 @@
   display: block;
   float: left;
   text-align: center;
-  margin: 1mm;
+  margin: 2mm 0.5mm;
 }
 
 .hobby .hobbyIcon {
@@ -58,5 +58,4 @@
 
 .hobby .hobbyName {
   clear: both;
-  padding: 100mm 0;
 }
