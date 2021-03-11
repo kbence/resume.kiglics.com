@@ -1,6 +1,12 @@
 import React from 'react';
 
-import style from '../styles/PersonalInfo.module.css'
+import style from '../styles/PersonalInfo.module.css';
+
+const hobbies = [
+  { style: "coding",  name: "Coding" },
+  { style: "vfx",     name: "VFX" },
+  { style: "cooking", name: "Cooking" },
+];
 
 export default class PersonalInfo extends React.Component {
   render() {
@@ -40,11 +46,12 @@ export default class PersonalInfo extends React.Component {
     </div>
 
     <h3>My hobbies</h3>
-    <ul>
-      <li>VFX</li>
-      <li>Coding</li>
-      <li>Cooking</li>
-    </ul>
+    {hobbies.map(hobby =>
+      <div className={style.hobby}>
+        <span className={`${style.hobbyIcon} ${style[hobby.style]}`} />
+        <span className={style.hobbyName}>{hobby.name}</span>
+      </div>
+    )}
 
     <span className="footer print-only">Source: resume.kiglics.com</span>
   </div>

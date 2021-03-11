@@ -34,3 +34,29 @@
   display: block;
   font-style: italic;
 }
+
+.hobby {
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 1mm;
+}
+
+.hobby .hobbyIcon {
+  display: block;
+  width: 12mm;
+  height: 12mm;
+
+  background-size: cover;
+  border-radius: 50%;
+  border: 0.5mm white solid;
+}
+
+.hobbyIcon.coding  { background-image: url(/images/coding.png); }
+.hobbyIcon.cooking { background-image: url(/images/cooking.png); }
+.hobbyIcon.vfx     { background-image: url(/images/vfx.png); }
+
+.hobby .hobbyName {
+  clear: both;
+  padding: 100mm 0;
+}
