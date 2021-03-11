@@ -29,7 +29,7 @@ export default class PersonalInfo extends React.Component {
 
     <div className={style.careerstep}>
       <h4>Prezi</h4>
-      <span>Infra Engineer, SRE</span>
+      <span>Infrastructure Engineer, SRE</span>
       <span>2013 - 2019</span>
     </div>
 
