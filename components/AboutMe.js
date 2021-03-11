@@ -20,11 +20,6 @@ export default class AboutMe extends React.Component {
         savings in infrastructural costs are also high on my list.
       </p>
       <p>
-        Mindenem a tanulás és tudom, hogy a több területet átölelő
-        érdeklődésem segít abban hogy a lehető legjobb megoldás felé
-        tereljem magamat és azokat, akikkel együtt dolgozom.
-      </p>
-      <p>
         Learning and keeping up with technology is important to me, and I
         know that my wide range of interests helps me redirecting myself and
         the people I work with towards the best possible solutions.
