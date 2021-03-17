@@ -4,8 +4,8 @@ cd "$(dirname "${BASH_SOURCE[0]:-$0}")"
 
 set -euo pipefail
 
-npm run build
-npm run export
+yarn run build
+yarn run export
 
 # Ugly hack since something puts /usr/local/bin earlier to PATH
 # than /usr/bin, and there's a buggy version of awscli there.
