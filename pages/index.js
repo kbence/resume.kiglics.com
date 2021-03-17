@@ -10,10 +10,12 @@ import Personal from '../components/layout/Personal';
 import PersonalInfo from '../components/PersonalInfo';
 import ProudOfStuff from '../components/ProudOfStuff';
 import Achievements from '../components/Achievements';
+import GitHubCorner from '../components/GitHubCorner';
 
 export default class Resume extends React.Component {
   render() {
     return <Centered>
+      <GitHubCorner href="https://github.com/kbence/resume.kiglics.com" />
       <Head>
         <title>Bence Kiglics - Resume</title>
       </Head>
