@@ -14,10 +14,12 @@ export default class PersonalInfo extends React.Component {
     <div className={style.profileimage}></div>
     <div className={style.name}>Bence Kiglics</div>
 
-    <h3>Contact</h3>
-    <div><i className="eva eva-phone" />+36 30 658 9308</div>
-    <div><i className="eva eva-email" />bence.kiglics@gmail.com</div>
-    <div><i className="eva eva-github" />kbence</div>
+    <div className={style.contacts}>
+      <h3>Contact</h3>
+      <div><i className="eva eva-phone" />+36 30 658 9308</div>
+      <div><i className="eva eva-email" />bence.kiglics@gmail.com</div>
+      <div><i className="eva eva-github" />kbence</div>
+    </div>
 
     <h3>My Career</h3>
 

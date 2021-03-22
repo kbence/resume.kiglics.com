@@ -7,7 +7,7 @@
 @media print {
   .centered {
     width: 210mm;
-    height: 297mm;
+    height: 267mm;
     margin: 0 0;
   }
 }
@@ -31,14 +31,14 @@
 
 .personal {
   width: 25%;
-  height: 297mm;
+  height: 296.95mm;
   float: left;
 }
 
 .career {
   width: 75%;
-  height: 297mm;
+  height: 296.95mm;
   float: left;
   background-color: rgb(255, 255, 255);
-  padding: 15px;
+  padding: 0 5mm;
 }
