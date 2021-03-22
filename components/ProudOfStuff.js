@@ -11,7 +11,7 @@ export default class ProudOfStuff extends React.Component {
           <li>I love learning new stuff</li>
           <li>Problem solving is my essence</li>
           <li>I have confidence in my knowledge</li>
-          <li>I'm great at understanding complex systems</li>
+          <li>I'm great at understanding and overseeing complex systems</li>
           <li>I'm always helpful</li>
           <li>I do my job responsibly</li>
         </ul>
