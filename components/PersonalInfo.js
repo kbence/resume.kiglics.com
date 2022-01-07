@@ -24,9 +24,15 @@ export default class PersonalInfo extends React.Component {
     <h3>My Career</h3>
 
     <div className={style.careerstep}>
+      <h4>Gravitational, Inc.</h4>
+      <span>Site Reliability Engineer</span>
+      <span>2021 -</span>
+    </div>
+
+    <div className={style.careerstep}>
       <h4>Instructure</h4>
       <span>Site Reliability Engineer</span>
-      <span>2019 -</span>
+      <span>2019 - 2021</span>
     </div>
 
     <div className={style.careerstep}>
